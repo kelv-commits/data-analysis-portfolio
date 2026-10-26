@@ -7,4 +7,4 @@ class TestExample(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+run: python -m unittest discover -
