@@ -6,12 +6,27 @@ class TestSalesAnalysis(unittest.TestCase):
 
 def setUp(self):
     self.sales = [
-        {"product": "Laptop", "region": "South", "quantity": 2,
-         "unit_price": 450, "revenue": 900},
-        {"product": "Mouse", "region": "East", "quantity": 10,
-         "unit_price": 15, "revenue": 150},
-        {"product": "Laptop", "region": "West", "quantity": 1,
-         "unit_price": 450, "revenue": 450},
+        {
+            "product": "Laptop",
+            "region": "South",
+            "quantity": 2,
+            "unit_price": 450,
+            "revenue": 900,
+        },
+        {
+            "product": "Mouse",
+            "region": "East",
+            "quantity": 10,
+            "unit_price": 15,
+            "revenue": 150,
+        },
+        {
+            "product": "Laptop",
+            "region": "West",
+            "quantity": 1,
+            "unit_price": 450,
+            "revenue": 450,
+        },
     ]
 
 def test_total_orders(self):
